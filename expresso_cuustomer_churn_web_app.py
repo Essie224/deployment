@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open("C:/Users/HP/Desktop/deployment/logistic_model_CustomerChurn.pkl",'rb' ))
+model = pickle.load(open("logistic_model_CustomerChurn.pkl",'rb' ))
 
 
 tenure_mapping = {
