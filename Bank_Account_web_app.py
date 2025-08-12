@@ -2,7 +2,7 @@ import numpy as np
 import pickle
 import streamlit as st
 
-model = pickle.load(open("C:/Users/HP/Desktop/deployment/RandomForestClassifier_Model_Bank_Account.pkl",'rb' ))
+model = pickle.load(open("RandomForestClassifier_Model_Bank_Account.pkl",'rb' ))
 
 
 country_mapping = {
